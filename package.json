@@ -1,0 +1,42 @@
+{
+	"name": "pragente-website",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"package": "svelte-kit package",
+		"preview": "svelte-kit preview",
+		"prepare": "svelte-kit sync",
+		"test": "playwright test",
+		"check": "svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@playwright/test": "^1.21.0",
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/kit": "next",
+		"autoprefixer": "^10.4.7",
+		"postcss": "^8.4.14",
+		"svelte": "^3.44.0",
+		"svelte-check": "^2.2.6",
+		"svelte-preprocess": "^4.10.6",
+		"tailwindcss": "^3.0.24",
+		"tslib": "^2.3.1",
+		"typescript": "~4.6.2"
+	},
+	"type": "module",
+	"dependencies": {
+		"@fortawesome/fontawesome-free": "^6.1.1",
+		"axios": "^0.27.2",
+		"class-transformer": "^0.5.1",
+		"gsap": "^3.10.4",
+		"lottie": "^0.0.1",
+		"lottie-web": "^5.9.4",
+		"sass": "^1.52.1",
+		"svelte-forms-lib": "^2.0.1",
+		"sveltejs-forms": "^2.1.2",
+		"three": "^0.141.0",
+		"three-wtm": "^1.0.2",
+		"wwobjloader2": "^4.0.1"
+	}
+}
